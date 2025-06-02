@@ -1,0 +1,46 @@
+My Steps:
+- Orderlines
+1. "unit_price" Datatype needs to be changed into a float
+1_1. find all the rows that include several Dots in the Number
+1_2. Delete the first Dot that appears
+1_3. Convert the column now into float
+
+2. "date" needs to be changed into Datatime
+2_1. Simple Convert
+
+3. "product_id" is useless
+3_1. drop the column "product_id"
+
+- Orders
+1. "created_date" needs to be changed into Datatime
+1_1. Simple Convert
+
+2. "total_paid" has some NaNs
+2_1. Find all the "order_id" rows which have "total_paid" = NaN and save them into nan_orders
+2_2. Find the rows in Orderlines that match with nan_orders("order_id" == "id_order")
+2_3. Save up the sum of "unit_price" per "id_order"
+2_4. Replace the NaNs with the saved values
+
+- Products
+1. Delete all the duplicated Products
+
+2. "price" is a mess (some of the numbers make no sense)
+2_1. Save up the highest value of "unit_price" per "sku"
+2_2. Merge them onto Products as a new column
+2_3. Find all the rows where "price" has several Dots
+2_4. Replace those faulty numbers with the values from the new column
+2_5. Convert to numeric
+
+3. "desc" has some NaNs
+3_1. Find the rows where "desc" == NaN
+3_2. Replace those with the "name" from the same row
+
+4. Find all thew rows where "price" is NaN
+4_1. Replace "price" in those rows with their "unit_price" (That we got from Orderlines previously)
+
+5. "type" has some NaNs
+5_1. Find all those rows
+5_2. Replace them with the Number part of the "sku" of the row
+
+6. "promo price" can't tell us anything
+6_1. Drop the column
