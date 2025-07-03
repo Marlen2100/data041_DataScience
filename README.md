@@ -27,3 +27,16 @@ In this exercise I was able to learn the many cosiderations a data analyst has t
 You have to understand how we got to the data that we have and how it can be fixed to a state that is useable.
 Cleaning the data will probably take much more time than the analysis in the end but the pain is worth it as long as it helps bring in better results.
 ```
+
+## 3. Data Pipelines and the Cloud
+
+The third item in my files includes the chapter 6 Project "Project_Gans".
+-> The task of this chapter was to collect raw data from the web and then save it up in a local database and later in the a cloud database.
+
+### Lesson
+```
+This chapter made me learn about the importance of automation.
+Being able to create a database that can be reused brings a lot of issues that can occur.
+The implemenmtation of the systems is rather strict and will leave you feeling very precarious while handling its operations.
+Only by fully automating the process can you ensure that issues will only occur once changes are made from the source.
+```
