@@ -40,3 +40,5 @@ Being able to create a database that can be reused brings a lot of issues that c
 The implemenmtation of the systems is rather strict and will leave you feeling very precarious while handling its operations.
 Only by fully automating the process can you ensure that issues will only occur once changes are made from the source.
 ```
+At the end of this project you were tasked to write a Blogpost about your experience.
+The Blogpost can be found here: [Blogpost about the ETL experience](https://medium.com/@marlen.buczolich/becoming-one-with-the-pipeline-cb110d3c0ade)
