@@ -10,9 +10,9 @@ The first item in my files includes the chapter 1 Project "Project_Magist".
 
 ### Lesson
 ```
-I learned that when you use data for an analysis. It is not a shame to realize the limits of what the data can offer you.\
-Doesn't mean it cannot offer you some insights and answers, but it does mean that your understanding of real circumstances may be heavily limited.\
-As so many factors come into play when doing an Analysis of the matter, it might really be a blessing to find more data that can correlate in detail.\
+I learned that when you use data for an analysis. It is not a shame to realize the limits of what the data can offer you.
+Doesn't mean it cannot offer you some insights and answers, but it does mean that your understanding of real circumstances may be heavily limited.
+As so many factors come into play when doing an Analysis of the matter, it might really be a blessing to find more data that can correlate in detail.
 So that it can help you make more informed reports.
 ```
 
